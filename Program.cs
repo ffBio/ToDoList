@@ -10,7 +10,7 @@ namespace To_Do_List{
         static void Main(string [ ] args) {
             var central = new CentralLista(new Dictionary<string, Action>() {
                 //Fundamentos
-                {"Primeiro Programa - Fundamentos", Construtores.Executar},
+                {"Lista", Construtores.Executar},
             });
             central.SelecionarEExecutar();
         }

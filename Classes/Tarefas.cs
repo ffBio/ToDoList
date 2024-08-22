@@ -9,60 +9,64 @@ namespace To_Do_List.Classes {
     internal class Tarefas {
         public string Tarefa;
         public string Descricao;
-        public double Hora;
+        public DateTime DataHora;
 
-        public Tarefas(string tarefa, string descricao, double hora) {
+        public Tarefas(string tarefa, string descricao, double hora, DateTime dataHora) {
             Tarefa = tarefa;
             Descricao = descricao;
-            Hora = hora; 
+            DataHora = dataHora;
         }
 
         public Tarefas(){}
-        
-        internal class Construtores{
+
+        internal class Construtores {
             public static void Executar() {
                 var listaDeTarefas = new List<Tarefas>();
-
-                // Define uma variável para controle do loop.
                 int afazeres = 1;
 
                 while(afazeres > 0) {
-                    // Cria uma nova instância de Tarefas.
                     var tarefa = new Tarefas();
+
+                    // Solicita e armazena a data e hora da tarefa.
+                    Console.WriteLine("Quando deve ser feito (dd/MM/yyyy HH:mm): ");
+                    string dataInput = Console.ReadLine();
+                    if(DateTime.TryParseExact(dataInput, "dd/MM/yyyy HH:mm", null, System.Globalization.DateTimeStyles.None, out DateTime dataHora)) {
+                        tarefa.DataHora = dataHora;
+                    } else {
+                        Console.WriteLine("Data ou hora inválida! Por favor, tente novamente.");
+                        continue; // Reinicia o loop para permitir uma nova tentativa.
+                    }
 
                     // Solicita e armazena os detalhes da tarefa.
                     Console.WriteLine("Digite a sua tarefa: ");
                     tarefa.Tarefa = Console.ReadLine();
-                    Console.WriteLine("O que deve ser feito?: ");
+                    Console.WriteLine("O que deve ser feito: ");
                     tarefa.Descricao = Console.ReadLine();
-                    Console.WriteLine("Horário a ser cumprido: ");
-                    tarefa.Hora = double.Parse(Console.ReadLine());
 
                     // Adiciona a tarefa à lista.
                     listaDeTarefas.Add(tarefa);
 
                     // Pergunta ao usuário se deseja adicionar mais tarefas.
                     Console.WriteLine("Deseja adicionar outra tarefa? (1 - Sim, 0 - Não)");
-                    afazeres = int.Parse(Console.ReadLine());         
+                    afazeres = int.Parse(Console.ReadLine());
                 }
+
                 ExibirTarefas(listaDeTarefas);
             }
+
             public static void ExibirTarefas(List<Tarefas> listaDeTarefas) {
-                // Verifica se a lista está vazia.
                 if(listaDeTarefas.Count == 0) {
                     Console.WriteLine("Nenhuma tarefa encontrada.");
                     return;
                 }
 
-                // Itera sobre cada tarefa na lista e exibe suas propriedades.
                 foreach(var tarefa in listaDeTarefas) {
+                    Console.WriteLine($"Data e Hora: {tarefa.DataHora:dd/MM/yyyy HH:mm}");
                     Console.WriteLine("Tarefa: " + tarefa.Tarefa);
                     Console.WriteLine("Descrição: " + tarefa.Descricao);
-                    Console.WriteLine("Horário: " + tarefa.Hora);
                     Console.WriteLine("----------------------");
                 }
             }
-
         }
     }
 }
