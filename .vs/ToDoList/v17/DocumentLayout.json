@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\source\\repos\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\ToDoList\\CentralLista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CentralLista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\ToDoList\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\ToDoList\\Classes\\Tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Classes\\Tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\ToDoList\\Classes\\GerenciadorDeTarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Classes\\GerenciadorDeTarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CentralLista.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\ToDoList\\CentralLista.cs",
-              "RelativeDocumentMoniker": "CentralLista.cs",
-              "ToolTip": "C:\\Users\\fabio\\source\\repos\\ToDoList\\CentralLista.cs",
-              "RelativeToolTip": "CentralLista.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAlAAAA",
+              "DocumentIndex": 1,
+              "Title": "Tarefas.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\ToDoList\\Classes\\Tarefas.cs",
+              "RelativeDocumentMoniker": "Classes\\Tarefas.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\ToDoList\\Classes\\Tarefas.cs",
+              "RelativeToolTip": "Classes\\Tarefas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T20:41:43.777Z",
+              "WhenOpened": "2024-08-22T21:54:28.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "GerenciadorDeTarefas.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\ToDoList\\Classes\\GerenciadorDeTarefas.cs",
+              "RelativeDocumentMoniker": "Classes\\GerenciadorDeTarefas.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\ToDoList\\Classes\\GerenciadorDeTarefas.cs",
+              "RelativeToolTip": "Classes\\GerenciadorDeTarefas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T21:48:15.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\ToDoList\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\fabio\\source\\repos\\ToDoList\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T20:40:36.61Z",
+              "WhenOpened": "2024-08-22T20:41:43.777Z",
               "EditorCaption": ""
             }
           ]

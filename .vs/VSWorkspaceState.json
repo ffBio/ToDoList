@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Classes"
   ],
-  "SelectedNode": "\\To-Do List.sln",
+  "SelectedNode": "\\Classes\\GerenciadorDeTarefas.cs",
   "PreviewInSolutionExplorer": false
 }
